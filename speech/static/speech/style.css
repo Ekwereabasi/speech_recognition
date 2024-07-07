@@ -1,0 +1,66 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #7abecc !important;
+}
+
+.user_card {
+    width: 350px;
+    margin: auto;
+    background: #74cfbf;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.form_container {
+    margin-top: 20px;
+}
+
+#form-title {
+    color: #fff;
+}
+
+.login_btn {
+    width: 100%;
+    background: #33ccff;
+    color: white;
+}
+
+.login_container {
+    padding: 0 2rem;
+}
+
+.input-group-text {
+    background: #f7ba5b;
+    color: white;
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.input_user,
+.input_pass:focus {
+    box-shadow: none;
+    outline: 0px;
+}
+
+#messages {
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+}
+
+.custom-select {
+    border-radius: 0.25rem;
+    padding: 10px;
+    background-color: #5ec2a3;
+    border: none;
+    color: #fff;
+}
+
+.custom-select option {
+    background-color: #74cfbf;
+    color: #fff;
+}
+
